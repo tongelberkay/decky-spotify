@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+dist/
+preview-dist/
+release/
+coverage/
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+.venv/

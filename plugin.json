@@ -1,0 +1,13 @@
+{
+  "name": "Decky Spotify",
+  "author": "berkay",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": [
+      "music",
+      "interface"
+    ],
+    "description": "Lightweight Spotify Connect player with phone QR authentication, playlist browsing, and a read-only queue. Premium required. Browser preview is simulated."
+  }
+}
