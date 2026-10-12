@@ -106,9 +106,17 @@ English is the only shipped language. The plugin owns its `i18next`/`react-i18ne
 
 To add languages later, register reviewed catalogs in the resource loader, extend locale resolution and direction, preserve interpolation names, and validate key/plural coverage against English. Test expanded text, mixed-direction metadata, and controller focus on hardware. Future coverage follows [Steam client UI languages](https://partner.steamgames.com/doc/store/localization/languages).
 
+## TODO
+
+- Add playlist pinning. The most recently pinned playlist appears at the top of the list.
+- Retrieve the current Now Playing state from the active Spotify session.
+- Retrieve the current queue from the active Spotify session.
+
+These are deferred tasks, not changes implemented in the current release.
+
 ## Public repository and Decky Store
 
-This source tree is being prepared for a public GitHub repository. Store submission is a separate review step: Decky's [plugin database](https://github.com/SteamDeckHomebrew/decky-plugin-database#submit-your-plugin) accepts pull requests adding a plugin repository as a submodule and links the current submission requirements. Publishing this repository or a ZIP does not by itself add the plugin to the store. Playlist reliability and the remaining hardware checks should be resolved before claiming a stable release.
+The public source repository is [tongelberkay/decky-spotify](https://github.com/tongelberkay/decky-spotify). Store submission is a separate review step: Decky's [plugin database](https://github.com/SteamDeckHomebrew/decky-plugin-database#submit-your-plugin) accepts pull requests adding a plugin repository as a submodule and links the current submission requirements. Publishing this repository or a ZIP does not by itself add the plugin to the store. Playlist reliability and the remaining hardware checks should be resolved before claiming a stable release.
 
 ## License
 
